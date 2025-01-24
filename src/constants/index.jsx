@@ -52,9 +52,17 @@ export const ABOUT = {
 };
 
 import kagsSS from '../assets/kagsSS.png'
-import pitstopSS from '../assets/pitstopSS.png'
+// import pitstopSS from '../assets/pitstopSS.png'
+import jobHunterLive from '../assets/job-hunter-live.png'
 
 export const PROJECTS = [
+  {
+    title: "One-stop job search from established platforms - Job Hunter Live",
+    subtitle:
+      "A simple job aggregator for all aggregators using NextJS and TypeScript.",
+    image: jobHunterLive,
+    link: 'https://job-hunter-live.vercel.app/'
+  },
   {
     title: "AI-negotiator in E-commerce - SAILER",
     subtitle: "A modern e-commerce platform that automates negotiation using AI and advanced algorithms.",
@@ -74,13 +82,13 @@ export const PROJECTS = [
     image: bob,
     link: 'https://buyorbarter.co.uk'
   },
-  {
-    title: "Redesigned landing page - Pitstop Hand Car Wash Ltd",
-    subtitle:
-      "A redesigned website using React, TailwindCSS, EmailJs and Google API.",
-    image: pitstopSS,
-    link: 'https://cute-horse-fc46a0.netlify.app/'
-  },
+  // {
+  //   title: "Redesigned landing page - Pitstop Hand Car Wash Ltd",
+  //   subtitle:
+  //     "A redesigned website using React, TailwindCSS, EmailJs and Google API.",
+  //   image: pitstopSS,
+  //   link: 'https://cute-horse-fc46a0.netlify.app/'
+  // },
   {
     title: "OpenAI-based text summarizer for online articles",
     subtitle: "An AI based summarizer built with React, Redux Toolkit, TailwindCSS and OpenAI API",
